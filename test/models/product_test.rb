@@ -32,7 +32,7 @@ test "product price must be positive number" do
 	product.errors[:price].join('; ')
 
 	product.price = 1
-	assert product.valid?fixtures :products
+	assert product.valid?
 
 end
 
