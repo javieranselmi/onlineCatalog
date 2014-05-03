@@ -12,9 +12,16 @@ Product.create(
 :title => 'par de zapatillas' ,
 :description =>
 %{<p>
-Ruby is the fastest growing and most exciting dynamic language out
-there. If you need to get working programs delivered fast, you should
-add Ruby to your toolbox.
+Alto para de zapatillas papá, no sabés lo que te perdes loco
+</p>},
+:image_url => '/assets/logo.png' ,
+:price => 49.50)
+
+Product.create(
+:title => 'robot cosmico' ,
+:description =>
+%{<p>
+un bune robot
 </p>},
 :image_url => '/assets/logo.png' ,
 :price => 49.50)
