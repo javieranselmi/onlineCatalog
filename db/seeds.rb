@@ -25,3 +25,7 @@ un bune robot
 </p>},
 :image_url => '/assets/logo.png' ,
 :price => 49.50)
+
+@user = {name: "javier", password: "javier"}
+User.create(@user)
+
